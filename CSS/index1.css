@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    padding-top: 2cm;
+    /* background-color: #6b5b5b; */
+}
+.header{
+    margin-top: -2cm;
+    z-index: 1;
+    position :fixed;
+    display: flex; 
+    width: 100%;
+    background-color: #beb6b6;
+    /* height: 30px; */
+    justify-content: space-between;
+    height: 13vh;
+}
+
+.nav ul{
+    font-weight: bold;
+    /* color: rgb(42, 37, 37); */
+    list-style: none;
+    gap: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+    display: flex;
+    margin-right: 40px;
+   
+}
+
+
+.nav ul li a{
+
+    text-decoration: none;
+    color: whitesmoke;
+ font-size: 20px;
+}
+.nav ul li a:hover{
+color: green;
+background-color: aliceblue;
+
+}
+#all-page{
+    /* background-image: url(/image/comp2.webp); */
+}
+                     /* homepage */
+.main{
+    background-color: #f0ebf31a;
+}
+  .home-content{
+    display: flex;
+    justify-content: space-between;
+  }
+.home-par{
+    background-color: rgba(253, 238, 238, 0.709);
+    height: 79vh;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 18px;
+    /* margin-top: -35px; */
+}
+.home-par h2{
+    padding-top: 40px;
+    font-size: 30px;
+    color: rgb(27, 25, 25);
+
+}
+button{
+    color: antiquewhite;
+    background-color: rgb(5, 167, 24);
+    height: 40px;
+    border: 1px;
+    width: 150px;
+    border-radius: 20px;
+}
+ .image img{
+    height: 85vh;
+    margin-top: -35px;
+ }
+.about{
+    padding-top: 20px;
+    display: flex;
+}
+.about-pag{
+    padding-top: 22vh;
+    /* margin-left: 30px; */
+    /* padding:40px */
+}
+
+.about-pag p{
+    font-size: 18px;
+    margin-left: 45px;
+    padding-top: 20px;
+}
+.about-image img{
+    width: 40vh;
+    height: 60vh;
+    margin-left: 85px;
+    margin-top: -3vh;
+}
+.body{
+    margin-top: 5vh;
+font-size: 18px;
+margin-left: 80PX;
+}
+.skills{ 
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14vh;
+    margin: 40px;
+    line-height: 2rem;
+}.html-skills{
+    display: flex;
+    justify-content: space-between;
+font-family: serif;
+font-weight: bold;
+font-size: 18px;
+}
+.bar{
+    width: 87vh;
+    height: 2vh;
+    display: block;
+    background-color: rgb(123, 122, 104);
+    border-radius: 10px;
+}
+.bar span{
+    height: 1.8vh;
+    float: left;
+    background-color: green;
+    border-radius: 10px;
+}
+.html{
+    width: 98%;
+    animation: html;
+}
+.css{
+    width: 85%;
+    animation: css;
+}
+.js{
+
+    width: 50%;
+    animation: html;
+}
+.php{
+
+    width: 55%;
+    animation: html;
+}
+.pt{
+
+    width: 75%;
+    animation: html;
+}
+.res-page{
+    padding-top: 22vh;
+}
+.resu-body1{
+    display: flex;
+    margin: 8vh;
+    /* padding-top: 16vh; */
+    line-height: 5vh;
+    justify-content: space-between;
+    /* text-align: center; */
+}
+
+.resumepage{
+    padding-top: 22vh;
+}
+.par1 h2{
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+}
+.par2 h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 25vh;
+    color: green;
+}
+.par1 {
+    font-size: 18px;
+    margin-left: 6vh;
+}
+.par2{
+    font-size: 18px;
+}
+.servicepage{
+    padding-top: 12vh;
+}
+h1{
+   color: #000000;
+   margin-left: 85vh;
+}
+.Services-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 9vh;
+    gap: 30px;
+    /* line-gap-override: 30vh; */
+}
+.card{
+    background-color: #121111;
+    width: 50vh;
+    height: 40vh;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 4vh;
+    margin-left: 25px;
+}
+.card h2{
+    color: aliceblue;
+    
+}
+.card span{
+    /* margin-left: 25vh; */
+    /* padding-top: -10px; */
+    font-size: 40px;
+    color: rgb(18, 232, 46);
+}
+.card p{
+    color: aliceblue;
+}
+.card:hover{
+
+    background-color: green;
+}  
+
+          /* .Contactpage */
+
+.Contactpage{
+    /* bottom: 160vh; */
+    /* height: 40vh; */
+}
+.contactbody{
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+.b1{
+
+    background-color:#bbb8b8;
+    width: 80vh;
+    height: 90vh;
+    /* line-height: 20px; */
+}
+.b2{   
+     /* margin-top: 8vh; */
+    background-color: #bbb8b8;
+    width: 80vh;
+    font-size: 40px;
+    /* height: 60vh; */
+}
+.b1 span{
+    line-height: 2px;
+    font-size: 30px;
+    /* color: green; */
+    color: #000000;
+    /* padding: 20px; */
+    /* margin-bottom: 20vh; */
+}
+.b1 p{
+    line-height: 20px;
+font-size: 20px;
+margin-left: 10vh;
+}
+.b1 span:hover{
+        color: green;
+    /* background-color: rgb(76, 189, 15); */
+    /* height: 10px; */
+}
+.b1 h3{
+    margin-left: 20vh;
+    font-size: 20px;
+    color: green;
+    /* margin-bottom: 30vh; */
+}
+ .b1 i{
+    background-color: #ece6e6;
+    height: 6vh;
+    width: 50px;
+    /* line-height: 20vh; */
+    text-align: center;
+    border-radius: 50%;
+    /* padding-top: -5vh; */
+}
+.b2 h4{
+    margin: 20px;
+    font-size: 20px;
+
+}.b2 h5{
+    margin-left: 20vh;
+    font-size: 20px;
+    color: green;
+    padding: 20px;
+}
+.b2 label{
+    font-size: 20px;
+    font-family:20px;
+    margin-left: 10px;
+}
+.b2 button{
+    margin-left: 20vh;
+}
+.portfolio-cont{
+margin-top: 15vh;
+}
+.portfolio-cont{
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, outo)); */
+    align-items: center;
+    gap: 1.5rem;
+    margin-left: 3rem;
+    margin-top: 5rem;
+}.row{
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 8px; */
+    cursor: pointer;
+}
+.row img{
+    /* margin-left: 10vh; */
+    width: 80%;
+    /* border: 50%; */
+    /* display: block; */
+    transition: transform 0.5s ;
+}
+.layer{
+    /* color: red; */
+    width:84%;
+    height:0;
+    background-color: green;
+    /* background-color: linear-gradient(rgb(149, 251, 24),#064eac); */
+position: absolute;
+border: 10px;
+left: 0;
+bottom: 0 ;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 0 40px;
+transition: height 0.5s;
+font-size: 15px;
+
+}
+.layer h5{
+    font-size: 25px;
+    color: wheat;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.layer p{
+    color: wheat;
+    /* color: var(--second-color); */
+    font-size: 20px;
+    line-height:1.8;
+} 
+.row:hover img{
+ transform: scale(1.1);   
+}.row:hover .layer{
+    height:100%;
+}
+.portfolio h1{
+    padding: 5vh;
+    margin-left: 60vh;
+}
+.portfolio p{
+    margin: 35px;
+    font-size: 20px;
+}
