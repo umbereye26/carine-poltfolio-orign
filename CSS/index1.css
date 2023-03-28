@@ -55,8 +55,8 @@ background-color: aliceblue;
     justify-content: space-between;
   }
 .home-par{
-    background-color: rgba(253, 238, 238, 0.709);
-    height: 79vh;
+    background-color: rgba(237, 236, 236, 0.709);
+    height: 79.8vh;
     width: 100%;
     padding-left: 100px;
     padding-top: 18px;
@@ -157,7 +157,7 @@ font-size: 18px;
     animation: html;
 }
 .res-page{
-    padding-top: 22vh;
+    padding-top: 20vh;
 }
 .resu-body1{
     display: flex;
@@ -195,6 +195,10 @@ font-size: 18px;
 h1{
    color: #000000;
    margin-left: 85vh;
+}
+h2{
+        color: #000000;
+        /* margin-left: 85vh;   */
 }
 .Services-content{
     display: flex;
@@ -379,4 +383,21 @@ font-size: 15px;
 .portfolio p{
     margin: 35px;
     font-size: 20px;
+}
+.a{
+    background-color: #ece6e6;
+    height: 10vh;
+}
+
+.foo{
+    /* margin-left: 75vh; */
+    background-color: rgb(184, 186, 184);
+   
+    height: 10vh;
+}
+.foo footer{
+    font-size: 25px;
+padding-top: 30px;
+    text-align: center;
+color:whitesmoke;
 }
