@@ -81,15 +81,17 @@ button{
     margin-top: -35px;
  }
 .about{
-    padding-top: 20px;
+    margin-top: 10vh;
     display: flex;
 }
 .about-pag{
-    padding-top: 22vh;
+    margin-top: 11vh;
     /* margin-left: 30px; */
     /* padding:40px */
 }
-
+.about-content{
+    padding-top: 60px;
+}
 .about-pag p{
     font-size: 18px;
     margin-left: 45px;
@@ -157,7 +159,13 @@ font-size: 18px;
     animation: html;
 }
 .res-page{
-    padding-top: 20vh;
+    padding-top: 11vh;
+}
+.resu-content{
+    margin-top:10vh;
+}
+.servi-content{
+    margin-top:11vh;
 }
 .resu-body1{
     display: flex;
@@ -189,7 +197,7 @@ font-size: 18px;
 .par2{
     font-size: 18px;
 }
-.servicepage{
+.service-page{
     padding-top: 12vh;
 }
 h1{
@@ -237,8 +245,10 @@ h2{
           /* .Contactpage */
 
 .Contactpage{
-    /* bottom: 160vh; */
-    /* height: 40vh; */
+    margin-top: 12vh;
+}
+.cont-content{
+    margin-top: 20vh;
 }
 .contactbody{
     gap: 60px;
@@ -250,17 +260,18 @@ h2{
 
     background-color:#bbb8b8;
     width: 80vh;
-    height: 90vh;
+    height: 60vh;
     /* line-height: 20px; */
 }
 .b2{   
      /* margin-top: 8vh; */
     background-color: #bbb8b8;
     width: 80vh;
-    font-size: 40px;
-    /* height: 60vh; */
+    font-size: 30px;
+    height: 60vh;
 }
 .b1 span{
+    text-align: center;
     line-height: 2px;
     font-size: 30px;
     /* color: green; */
@@ -310,6 +321,10 @@ margin-left: 10vh;
 }
 .b2 button{
     margin-left: 20vh;
+    margin-top: -99vh;
+}
+.por-content{
+    margin-top: 11vh;
 }
 .portfolio-cont{
 margin-top: 15vh;
